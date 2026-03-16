@@ -6,6 +6,7 @@ client = anthropic.Anthropic(
     api_key=os.getenv("ZHIPUAI_API_KEY"),
     base_url=os.getenv("ZHIPUAI_API_BASE_URL")
 )
+
 MODEL="glm-4.5-flash"
 tools=[
     {
